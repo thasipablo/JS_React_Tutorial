@@ -19,7 +19,8 @@ const postulant = {
 const person_1 = { ...person };
 
 // destructuring operator
-const { phone } = person;
+const { phone, name } = person;
+console.log(phone, name, `age = ${person.age} ans`);
 
 /**
  * Array
@@ -35,7 +36,7 @@ const languages = [
 ];
 
 const ext = ["iPhone", "Nokia", ...languages];
-console.log(ext);
+// console.log(ext);
 
 const [en, fr, sw] = languages;
-console.log(sw);
+// console.log(sw);
