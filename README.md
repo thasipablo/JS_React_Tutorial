@@ -1,4 +1,3 @@
 # Learn Javascript and React
 
-
-Tutorial
+Let's learn JavaScript together
